@@ -1,8 +1,5 @@
-# api_rest_contactos
-API REST para gestionar contactos en una DB utilizando FastAPI
-
-
 #Desing Document: API REST CONTACTOS
+API REST para gestionar contactos en una DB utilizando FastAPI
 
 ## 1. Descripcion
 Ejemplo de una API REST para gestionar contactos en una DB utiliando FastAPI.
