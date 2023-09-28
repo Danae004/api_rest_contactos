@@ -11,6 +11,7 @@ Realizar un ejemplo de diseño de una API REST de un tipo CRUD y su porterior co
 Para este ejemplo se utilizara el gestor de bases de datos [SQLite3](http://sqlite.org). con las siguientes tablas:
 
 ### 3.1 Tablas: Contactos
+Diseño de la tabla para almacenar contactos
 
 |N°|CAMPO|TIPO|RESTRICCIONES|DESCRIPCION|
 |--|--|--|--|--|
@@ -23,3 +24,16 @@ Para este ejemplo se utilizara el gestor de bases de datos [SQLite3](http://sqli
 
 ### 3.2
 CREATE TABLE IF NOT EXISTS contactos ( id_contacto INTEGER PRIMARY KEY, nombre VARCHAR(100) NOT NULL, primer_apellido VARCHAR(50) NOT NULL, segundo_apellido VARCHAR(50) NOT NULL, email VARCHAR(100) NOT NULL, telefono VARCHAR(13) NOT NULL );
+
+## 4. Diseño del Endpoint
+Diseño del endpoint para el recurso contactos
+### 4.1 Mostrar todos los contactos
+Endpoint para obtener todos los contactos
+
+
+|N°|Propiedad|Descripcion|
+|--|--|--|
+|1|Description|Endpoint para obtener todos los contactos|
+|2|Summary|Endpoint todos los contactos|
+|3|Method| GET|
+
